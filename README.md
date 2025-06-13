@@ -17,7 +17,15 @@
 
 このリストの商品が在庫確認可能です。
 
-## 設定
+## 使い方
+
+### 利用手順
+
+- git clone
+- cd project_dir
+- npm install
+
+### MCPサーバの登録（Cursor等）
 
 node.jsが入ってること前提。server.jsファイルへの物理Pathを設定。
 
