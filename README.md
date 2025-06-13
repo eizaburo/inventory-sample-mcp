@@ -1,5 +1,7 @@
 # MCPサーバの実装サンプル（AI生成）
 
+## 概要
+
 在庫についていろいろ聞くことができる。
 登録されてる商品は、以下。
 
@@ -14,3 +16,18 @@
 | product_004    | 商品D    |
 
 このリストの商品が在庫確認可能です。
+
+## 設定
+
+node.jsが入ってること前提。server.jsファイルへの物理Pathを設定。
+
+```
+{
+  "mcpServers": {
+    "inventory-manager": {
+      "command": "node",
+      "args": ["/Users/user_name/inventory-mcp-server/server.js"]
+    }
+  }
+}
+```
